@@ -100,3 +100,4 @@ def delete_task(task_id: str):
         raise HTTPException(status_code=404, detail="Task not found")
     removed = _tasks.pop(idx)
     return {"status": "success", "id": removed.id, "message": "Deleted"}
+
