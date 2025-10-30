@@ -31,25 +31,10 @@ This project simulates a real-world **house price prediction system** with focus
 
 ---
 
-## 🏗️ Folder Structure
 
 
 
 
-House_Price_Prediction/
-│
-├── data/
-│ ├── generate_data.py # Script to generate synthetic dataset
-│ └── house_data.csv # Generated dataset
-│
-├── backend/
-│ ├── main.py # FastAPI backend server
-│ └── model/
-│ ├── train_model.py # Model training script
-│ └── house_price_model.pkl # Saved ML model
-│
-├── frontend/
-│ └── app.py # Streamlit app (frontend)
-│
-├── requirements.txt
-└── README.md
+
+
+
