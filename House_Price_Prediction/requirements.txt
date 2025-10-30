@@ -1,0 +1,53 @@
+# 🏠 House Price Prediction — Full Stack Machine Learning App
+
+A complete **end-to-end Machine Learning project** built with **FastAPI**, **Streamlit**, and **Scikit-Learn**.  
+The application predicts **house prices** based on input features such as area, number of bedrooms, bathrooms, stories, and parking availability.
+
+This project demonstrates the full ML workflow — **data creation → model training → REST API → frontend UI**.
+
+---
+
+## 🚀 Tech Stack
+
+| Layer | Technology |
+|--------|-------------|
+| **Machine Learning** | Scikit-Learn, Pandas, NumPy |
+| **Backend API** | FastAPI |
+| **Frontend UI** | Streamlit |
+| **Language** | Python |
+| **Model Serialization** | Joblib |
+
+---
+
+## 🧠 Project Overview
+
+This project is designed to simulate a real-world **house price prediction system** with a focus on clean architecture and smooth data flow between backend and frontend.
+
+### 🔹 Key Features
+- Trains a **Linear Regression** model on a generated dataset  
+- Exposes prediction API using **FastAPI**
+- Provides an **interactive UI** with **Streamlit**
+- Modular, production-style folder structure  
+- Easily replaceable model and dataset for real-world scaling  
+
+---
+
+## 🏗️ Folder Structure
+
+House_Price_Prediction/
+│
+├── data/
+│ ├── generate_data.py # Script to generate synthetic dataset
+│ └── house_data.csv # Generated dataset
+│
+├── backend/
+│ ├── main.py # FastAPI backend server
+│ └── model/
+│ ├── train_model.py # Model training script
+│ └── house_price_model.pkl # Saved ML model
+│
+├── frontend/
+│ └── app.py # Streamlit app (frontend)
+│
+├── requirements.txt
+└── README.md
